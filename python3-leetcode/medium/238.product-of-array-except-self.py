@@ -17,7 +17,6 @@ class Solution:
             res[i] *= postfix
             postfix *= nums[i]
         return res
-                
 # @lc code=end
 
 def productExceptSelf(self, nums: List[int]) -> List[int]:
