@@ -1,0 +1,5 @@
+https://leetcode.com/problems/permutations/
+Solution: https://youtu.be/s7AvT7cGdSo
+
+https://leetcode.com/problems/permutations-ii/
+Solution: https://youtu.be/qhBVWf0YafA

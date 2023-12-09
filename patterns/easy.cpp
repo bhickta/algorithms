@@ -4,19 +4,21 @@ using namespace std;
 void row_col_nums()
 {
     int n;
+    cout << "Enter a Number\n";
     cin >> n;
     char counting = 'A';
-    int i = n; /* i = n => inverted-triangle*/
-    while (i > 0)
+    int i = 0; /* i = n => inverted-triangle*/
+    while (i < n)
     {
         int j = 0;
-        while (j < i) /* j < i + 1 = upright-triangle pattern | j < n = square pattern */
+        while (j <= i) /* j < i + 1 = upright-triangle pattern | j < n = square pattern */
         {
-            cout << counting++; /* j+1 = front col | i + 1 = front row | n - i reverse rows | "*" row-col equal stars | counting++ = counting | i + 1 - j = reverse rows*/
+            cout << counting; /* j+1 = front col | i + 1 = front row | n - i reverse rows | "*" row-col equal stars | counting++ = counting | i + 1 - j = reverse rows*/
+            counting++;
             j++;
         }
         cout << endl;
-        i--;
+        i++; /* i-- inverted-triangle*/
     }
 }
 
